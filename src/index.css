@@ -57,6 +57,7 @@ code {
 
 .card-img-top {
   max-height: 150px !important;
+  object-fit: cover;
 }
 
 .image-container {
