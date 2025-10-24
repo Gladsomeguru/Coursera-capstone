@@ -31,7 +31,7 @@ function Cards() {
                                 <span className="text-success fw-medium price">${item.price}</span>
                             </div>  
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" className="all-none fw-medium fs-6 cursor-pointer">Order to delivery <i className="bi bi-bag-heart text-success ps-1 fs-6"></i></a>
+                            <a href="#" className="all-none fw-medium fs-6 cursor-pointer green-btn">Order to delivery <i className="bi bi-bag-heart text-success ps-1 fs-6"></i></a>
                         </div>
                     </div>
                 </div>
