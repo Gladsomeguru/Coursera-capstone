@@ -57,7 +57,7 @@ function Form() {
                 <div className="col-md-6 d-md-block d-none">
                     <img src="icons_assets/restaurant.jpg" className="card-image-top img-fluid w-100 py-4" alt="Little lemon" />
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 mt-md-0 mt-3">
                     <form onSubmit={handleSubmit} className={success ? "d-none" : ""}>
                         <div className="form-group mb-2">
                             <label htmlFor="date" className="fw-medium">Date <span style={{ color: "red" }}>*</span> </label>
