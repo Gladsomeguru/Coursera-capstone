@@ -24,7 +24,7 @@ function Cards() {
             cardItems.map((item, index) => (
                 <div className="col-md-4 mb-md-0 mb-3" key={index}>
                     <div className="card">
-                        <img src={item.url} className="card-img-top" alt={item.title} />
+                        <img src={item.url} className="card-img-top specialities-img" alt={item.title} />
                         <div className="card-body">
                             <div className="d-flex justify-content-between align-items-start mb-3">
                                 <h4 className="card-title text-markazi mb-0">{item.title}</h4>

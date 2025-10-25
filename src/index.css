@@ -16,8 +16,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .all-none {
@@ -44,6 +43,7 @@ code {
 .yellow-btn {
   background-color: #face14 !important;
   cursor: pointer !important;
+  box-sizing: border-box !important;
 }
 
 .yellow-btn:hover {
@@ -62,7 +62,7 @@ code {
   background: linear-gradient(to bottom, #495E57 70%, #ffffff 30%) !important;
 }
 
-.card-img-top {
+.specialities-img {
   max-height: 150px !important;
   object-fit: cover;
 }

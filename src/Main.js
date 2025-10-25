@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 function Main() {
+    const navigate = useNavigate();
     return (
         <>
             <main className="hero-bg">
@@ -14,11 +17,15 @@ function Main() {
                                 receipes served with a modern<br />
                                 twist.<br />
                             </p>
-                            <button className="rounded-4 all-none yellow-btn fw-medium p-2 px-4">Reserve a Table</button>
+                            <button
+                                onClick={() => navigate('bookingpage')}
+                                className="rounded-4 all-none yellow-btn fw-medium p-2 px-4">
+                                Reserve a Table
+                            </button>
                         </div>
                         <div className="col-md-4 mt-md-0 mt-1">
                             <div className="image-container rounded-3 my-3 w-100">
-                                <img src="./icons_assets/restaurantfood.jpg" alt="restaurant food" className="w-100"/>
+                                <img src="./icons_assets/restaurantfood.jpg" alt="restaurant food" className="w-100" />
                             </div>
                         </div>
                     </div>

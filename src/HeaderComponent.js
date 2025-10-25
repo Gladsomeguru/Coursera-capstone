@@ -11,22 +11,22 @@ function Header() {
                     <div className="collapse navbar-collapse flex-grow-0" id="navbarNav">
                         <ul className="navbar-nav gap-3">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">HOME</a>
+                                <a className="nav-link active" aria-current="page" href="/">HOME</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">ABOUT</a>
+                                <a className="nav-link" href="/">ABOUT</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">MENU</a>
+                                <a className="nav-link" href="/">MENU</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">RESERVATIONS</a>
+                                <a className="nav-link" href="/bookingpage">RESERVATIONS</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">ORDER ONLINE</a>
+                                <a className="nav-link" href="/">ORDER ONLINE</a>
                             </li>  
                             <li className="nav-item">
-                                <a className="nav-link" href="#">LOGIN</a>
+                                <a className="nav-link" href="/">LOGIN</a>
                             </li>                                    
                         </ul>
                     </div>
